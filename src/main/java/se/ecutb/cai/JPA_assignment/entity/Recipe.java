@@ -52,6 +52,10 @@ public class Recipe {
         this(0,recipeName,recipeInstruction);
     }
 
+    public Recipe(String recipeName) {
+        this(0,recipeName,null);
+    }
+
     Recipe() {}
 
     public int getRecipeId() {
